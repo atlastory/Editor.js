@@ -19,7 +19,7 @@ A GUI can be built on top of Editor.js to turn it into a fully function web-base
 
 ### Build
 
-Editor.js uses [Gulp](http://gulpjs.com/) as a task runner and [Browserify](http://browserify.org/) to load modules. It is built to be completely modular, and `index.js` can be edited to include
+Editor.js uses [Gulp](http://gulpjs.com/) as a task runner and [Browserify](http://browserify.org/) to load modules. It is built to be completely modular, and `index.js` can be edited to include any modules depending on your needs.
 
 ```sh
 npm install -g gulp
@@ -42,7 +42,3 @@ See [CONTRIBUTING](CONTRIBUTING.md) for more information. For coding or developm
 ### License
 
 Editor.js is released under the [MIT License](http://opensource.org/licenses/MIT).
-
-## Documentation
-
-@TODO <<more stuff here later>>
